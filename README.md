@@ -40,7 +40,7 @@ Electricity-Consumption-Analysis/
 ---
 
 ## 🛠️ Technologies Used
-- **Python 3.x**
+- **Python 3.8**
 - **pandas** - Data manipulation and analysis
 - **numpy** - Numerical computations
 - **matplotlib** - Data visualization
@@ -195,6 +195,12 @@ pip install pandas numpy matplotlib seaborn statsmodels
 
 ---
 
+## 📥 Dataset Download
+The dataset is too large for GitHub. Download it from:
+- **Source:** [UCI ML Repository - Individual Household Electric Power Consumption](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption)
+- **Direct Download:** [household_power_consumption.zip](https://archive.ics.uci.edu/ml/machine-learning-databases/00235/household_power_consumption.zip)
+  
+
 ## 📝 Lessons Learned
 - Time-series data requires careful preprocessing
 - Missing value handling is crucial for accurate analysis
@@ -206,16 +212,16 @@ pip install pandas numpy matplotlib seaborn statsmodels
 
 ## 🎓 Academic Context
 - **Course:** AI/ML Minor Project
-- **Semester:** [Your semester]
-- **Institution:** [Your college/university]
+- **Semester:** [3rd Semester(CSE Core)]
+- **Institution:** [Rungta College of Engineering and Technology]
 - **Submission:** December 2025
 
 ---
 
 ## 👤 Author
-**[Your Name]**
-- Email: [Your email]
-- GitHub: [Your GitHub username]
+**[Akshat Sahu]**
+- Email: [akshatsahu1608@gmail.com]
+- GitHub: [Akshattron]
 
 ---
 
@@ -241,13 +247,3 @@ This project is created for educational purposes as part of academic coursework.
 ---
 
 **⭐ If you found this analysis helpful, please star this repository!**
-```
-
----
-
-## **🔧 UPDATE THE README WITH YOUR ACTUAL FINDINGS**
-
-Replace these placeholders with your actual results:
-- `[Your peak hour from analysis]` - Replace with the actual peak hour you found (e.g., "19:00")
-- `[X] kW`, `[Y] kW`, etc. - Replace with actual values from your analysis
-- `[Your Name]`, `[Your email]`, etc. - Add your personal information
