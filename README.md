@@ -100,27 +100,26 @@ Electricity-Consumption-Analysis/
 ## 🔥 Key Findings
 
 ### ⚡ Peak Usage Patterns
-- **Peak Hour:** [Your peak hour from analysis] with average consumption of [X] kW
-- **Lowest Hour:** [Your lowest hour] with average consumption of [Y] kW
-- **Peak Day:** [Day name] shows highest average consumption
-- **Peak Month:** [Month name] records maximum electricity usage
+- **Peak Hour:** [20:00 (8 PM)] with average consumption of [1.90 kW] kW
+- **Lowest Hour:** [04:00 (4 AM)] with average consumption of [~0.45 kW] kW
+- **Peak Day:** [Saturday followed by sunday] shows highest average consumption
+- **Peak Month:** [January records maximum average electricity usage, while February holds the record for the single highest peak event] records maximum electricity usage
 
 ### 📊 Statistical Insights
-- Average electricity consumption: [X] kW
-- Maximum recorded consumption: [Y] kW
-- Standard deviation: [Z] kW
-- Anomalies detected: [N] unusual consumption events
+- Average electricity consumption: [~1.09 - 1.1 kW] kW
+- Maximum recorded consumption: [11.1 kW] kW
+- Anomalies detected: [106,882] unusual consumption events
 
 ### 🏠 Household Area Analysis
-- **Kitchen (Sub_metering_1):** [X] Wh average
-- **Laundry (Sub_metering_2):** [Y] Wh average
-- **Water Heater & AC (Sub_metering_3):** [Z] Wh average
-- **Highest consumer:** [Area name]
+- **Kitchen (Sub_metering_1):** [~1.1] Wh average
+- **Laundry (Sub_metering_2):** [Sub_metering_2] Wh average
+- **Water Heater & AC (Sub_metering_3):** [~6.5] Wh average
+- **Highest consumer:** [Water Heater & AC]
 
 ### 📈 Trends Observed
-- Clear daily patterns with peaks during [morning/evening] hours
-- Weekend vs weekday usage shows [difference]
-- Seasonal variations indicate [higher/lower] consumption in [season]
+- Clear daily patterns with peaks during [evening from 6 PM to 9 PM] hours
+- Weekend vs weekday usage shows [higher consumption on Weekends compared to weekdays.]
+- Seasonal variations indicate [higher] consumption in [winter]
 - Strong correlation between active power and intensity
 
 ---
@@ -179,18 +178,18 @@ pip install pandas numpy matplotlib seaborn statsmodels
 
 1. **Energy Optimization:**
    - Shift high-consumption activities away from peak hours
-   - Focus on [peak hour identified] for maximum savings
+   - Focus on [20:00 (8 PM)] for maximum savings
 
 2. **Load Management:**
    - Implement time-of-use pricing strategies
    - Schedule appliances during off-peak hours
 
 3. **Anomaly Investigation:**
-   - Review [N] detected anomalies
+   - Review [106,882] detected anomalies
    - Check for faulty appliances or unusual events
 
 4. **Area-Specific Actions:**
-   - [Highest consuming area] shows maximum usage
+   - [Water Heater & AC] shows maximum usage
    - Consider energy-efficient alternatives for this area
 
 ---
@@ -221,7 +220,7 @@ The dataset is too large for GitHub. Download it from:
 ## 👤 Author
 **[Akshat Sahu]**
 - Email: [akshatsahu1608@gmail.com]
-- GitHub: [Akshattron]
+- GitHub: [/Akshattron]
 
 ---
 
