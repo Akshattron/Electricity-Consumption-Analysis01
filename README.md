@@ -1,0 +1,253 @@
+# ⚡ Electricity Consumption Analysis Tool
+
+## 📊 Project Overview
+This project analyzes household electricity consumption data to identify **peak usage patterns** and derive actionable insights for energy optimization.
+
+**Project Type:** Minor 1 - Exploratory Data Analysis (EDA)  
+**Difficulty Level:** Medium  
+**Completion Date:** December 2025
+
+---
+
+## 🎯 Objectives
+- Analyze household electricity consumption data
+- Identify peak usage hours and patterns
+- Detect anomalies in electricity consumption
+- Provide statistical trends and visualizations
+- Compare electricity usage across different household areas
+
+---
+
+## 📁 Project Structure
+```
+Electricity-Consumption-Analysis/
+│
+├── data/
+│   ├── household_power.csv              # Original dataset
+│   └── cleaned_household_power.csv      # Cleaned dataset
+│
+├── notebooks/
+│   ├── 01_data_cleaning.ipynb           # Data preprocessing
+│   ├── 02_eda_analysis.ipynb            # Exploratory data analysis
+│   └── 03_advanced_analysis.ipynb       # Peak usage & advanced analysis
+│
+├── results/
+│   └── graphs/                          # All generated visualizations
+│
+└── README.md                            # Project documentation
+```
+
+---
+
+## 🛠️ Technologies Used
+- **Python 3.x**
+- **pandas** - Data manipulation and analysis
+- **numpy** - Numerical computations
+- **matplotlib** - Data visualization
+- **seaborn** - Statistical graphics
+- **statsmodels** - Time series analysis
+
+---
+
+## 📊 Dataset Information
+- **Source:** UCI Machine Learning Repository - Individual Household Electric Power Consumption
+- **Records:** 2,075,259 measurements
+- **Time Period:** December 2006 to November 2010 (47 months)
+- **Frequency:** 1-minute intervals
+- **Features:**
+  - Global_active_power: Total active power (kilowatts)
+  - Global_reactive_power: Total reactive power (kilowatts)
+  - Voltage: Voltage (volts)
+  - Global_intensity: Current intensity (amperes)
+  - Sub_metering_1: Kitchen (watt-hours)
+  - Sub_metering_2: Laundry (watt-hours)
+  - Sub_metering_3: Water heater & AC (watt-hours)
+
+---
+
+## 🔬 Analysis Workflow
+
+### 1️⃣ Data Cleaning (`01_data_cleaning.ipynb`)
+- Loaded raw dataset with 2M+ records
+- Handled missing values (replaced '?' with NaN)
+- Converted data types to appropriate formats
+- Created DateTime index for time-series analysis
+- Removed invalid/incomplete records
+- **Output:** Clean dataset ready for analysis
+
+### 2️⃣ Exploratory Data Analysis (`02_eda_analysis.ipynb`)
+- Statistical summary of all features
+- Distribution analysis of power consumption
+- Daily, weekly, and monthly consumption trends
+- Sub-metering comparison (household areas)
+- Correlation analysis between electrical features
+- Voltage stability analysis
+- **Output:** 8 comprehensive visualizations
+
+### 3️⃣ Advanced Analysis (`03_advanced_analysis.ipynb`)
+- Peak usage hours identification
+- Day vs Hour heatmap analysis
+- Day of week consumption patterns
+- Anomaly detection (unusual high consumption)
+- Rolling mean trend analysis
+- Seasonal decomposition
+- Monthly peak analysis
+- Sub-metering peak comparison
+- **Output:** 10 advanced visualizations + summary report
+
+---
+
+## 🔥 Key Findings
+
+### ⚡ Peak Usage Patterns
+- **Peak Hour:** [Your peak hour from analysis] with average consumption of [X] kW
+- **Lowest Hour:** [Your lowest hour] with average consumption of [Y] kW
+- **Peak Day:** [Day name] shows highest average consumption
+- **Peak Month:** [Month name] records maximum electricity usage
+
+### 📊 Statistical Insights
+- Average electricity consumption: [X] kW
+- Maximum recorded consumption: [Y] kW
+- Standard deviation: [Z] kW
+- Anomalies detected: [N] unusual consumption events
+
+### 🏠 Household Area Analysis
+- **Kitchen (Sub_metering_1):** [X] Wh average
+- **Laundry (Sub_metering_2):** [Y] Wh average
+- **Water Heater & AC (Sub_metering_3):** [Z] Wh average
+- **Highest consumer:** [Area name]
+
+### 📈 Trends Observed
+- Clear daily patterns with peaks during [morning/evening] hours
+- Weekend vs weekday usage shows [difference]
+- Seasonal variations indicate [higher/lower] consumption in [season]
+- Strong correlation between active power and intensity
+
+---
+
+## 📊 Visualizations Generated
+
+### From EDA Notebook:
+1. Distribution of Global Active Power
+2. Daily Average Electricity Consumption
+3. Monthly Electricity Consumption Trend
+4. Sub-Metering Comparison
+5. Box Plot for Power Consumption
+6. Correlation Heatmap
+7. Weekly Consumption Pattern
+8. Voltage Analysis
+
+### From Advanced Analysis Notebook:
+1. Hourly Consumption Pattern
+2. **Peak Hours Analysis** ⭐ (Key deliverable)
+3. Day of Week Analysis
+4. **Day vs Hour Heatmap** ⭐⭐ (Most important!)
+5. Top 10 Peak Consumption Hours
+6. Rolling Mean Trend Analysis
+7. Anomaly Detection
+8. Monthly Peak Analysis
+9. Seasonal Decomposition
+10. Sub-Metering Peak Analysis
+
+---
+
+## 🚀 How to Run
+
+### Prerequisites
+```bash
+pip install pandas numpy matplotlib seaborn statsmodels
+```
+
+### Execution Steps
+1. Clone this repository
+2. Place `household_power.csv` in the `data/` folder
+3. Open Google Colab or Jupyter Notebook
+4. Run notebooks in order:
+   - First: `01_data_cleaning.ipynb`
+   - Second: `02_eda_analysis.ipynb`
+   - Third: `03_advanced_analysis.ipynb`
+5. All visualizations will be saved automatically
+
+### For Google Colab Users
+- Upload the dataset when prompted
+- All graphs will be saved and can be downloaded
+- Use the provided download cells at the end of each notebook
+
+---
+
+## 💡 Recommendations Based on Analysis
+
+1. **Energy Optimization:**
+   - Shift high-consumption activities away from peak hours
+   - Focus on [peak hour identified] for maximum savings
+
+2. **Load Management:**
+   - Implement time-of-use pricing strategies
+   - Schedule appliances during off-peak hours
+
+3. **Anomaly Investigation:**
+   - Review [N] detected anomalies
+   - Check for faulty appliances or unusual events
+
+4. **Area-Specific Actions:**
+   - [Highest consuming area] shows maximum usage
+   - Consider energy-efficient alternatives for this area
+
+---
+
+## 📝 Lessons Learned
+- Time-series data requires careful preprocessing
+- Missing value handling is crucial for accurate analysis
+- Rolling means help identify long-term trends
+- Heatmaps effectively visualize multi-dimensional patterns
+- Anomaly detection reveals unusual consumption events
+
+---
+
+## 🎓 Academic Context
+- **Course:** AI/ML Minor Project
+- **Semester:** [Your semester]
+- **Institution:** [Your college/university]
+- **Submission:** December 2025
+
+---
+
+## 👤 Author
+**[Your Name]**
+- Email: [Your email]
+- GitHub: [Your GitHub username]
+
+---
+
+## 📚 References
+1. UCI Machine Learning Repository - Individual Household Electric Power Consumption Dataset
+2. Pandas Documentation: https://pandas.pydata.org/
+3. Matplotlib Documentation: https://matplotlib.org/
+4. Seaborn Documentation: https://seaborn.pydata.org/
+5. Statsmodels Documentation: https://www.statsmodels.org/
+
+---
+
+## 📄 License
+This project is created for educational purposes as part of academic coursework.
+
+---
+
+## 🙏 Acknowledgments
+- Thanks to my tutor for project guidance
+- Thanks to my senior for the detailed roadmap
+- UCI ML Repository for providing the dataset
+
+---
+
+**⭐ If you found this analysis helpful, please star this repository!**
+```
+
+---
+
+## **🔧 UPDATE THE README WITH YOUR ACTUAL FINDINGS**
+
+Replace these placeholders with your actual results:
+- `[Your peak hour from analysis]` - Replace with the actual peak hour you found (e.g., "19:00")
+- `[X] kW`, `[Y] kW`, etc. - Replace with actual values from your analysis
+- `[Your Name]`, `[Your email]`, etc. - Add your personal information
