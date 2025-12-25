@@ -240,7 +240,6 @@ This project is created for educational purposes as part of academic coursework.
 
 ## 🙏 Acknowledgments
 - Thanks to my tutor for project guidance
-- Thanks to my senior for the detailed roadmap
 - UCI ML Repository for providing the dataset
 
 ---
